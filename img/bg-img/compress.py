@@ -31,4 +31,4 @@ def compress_images(input_folder, output_folder, max_size):
                 resized_image.save(output_path, optimize=True, quality=image.info.get("quality", 95))
                 # print(">>>>>>>>>x here",x)
 # Example usage
-compress_images("still_life", "still_life", 1000)
+compress_images("slides", "slides", 1000)
